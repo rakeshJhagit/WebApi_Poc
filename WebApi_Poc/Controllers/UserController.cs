@@ -11,7 +11,7 @@ using WebApi_Poc.Services;
 namespace WebApi_Poc.Controllers
 {
     [Authorize]
-    [Route("api/[controller]")]
+    [Route("api/[controller]")]    
     [ApiController]
     public class UserController : ControllerBase
     {
